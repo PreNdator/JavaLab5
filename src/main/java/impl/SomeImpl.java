@@ -1,4 +1,6 @@
+package impl;
+
 import interfaces.SomeInterface;
-class SomeImpl implements SomeInterface{
+public class SomeImpl implements SomeInterface{
 public void doSomething(){ System.out.println("A");}
 }
