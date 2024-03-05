@@ -1,8 +1,10 @@
-import interfaces.SomeInterface;
-import interfaces.SomeOtherInterface;
+import interfaces.*;
+
 
 public class SomeBean {
+    @AutoInjectable
     private SomeInterface field1;
+    @AutoInjectable
     private SomeOtherInterface field2;
 
     public void foo(){
